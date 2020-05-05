@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+ul, ol {
+    list-style-type: none;
+}
