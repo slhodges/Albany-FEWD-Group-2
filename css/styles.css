@@ -12,3 +12,17 @@ a {
 ul, ol {
     list-style-type: none;
 }
+
+
+/*  NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.navlink{
+    color: rgb(240, 238, 238);
+    
+}
