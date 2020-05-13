@@ -24,5 +24,7 @@ ul, ol {
 }
 .navlink{
     color: rgb(240, 238, 238);
-    
+}
+.navlink:hover {
+    transform: scale(1.2);
 }
