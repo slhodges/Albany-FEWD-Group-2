@@ -13,6 +13,34 @@ ul, ol {
     list-style-type: none;
 }
 
+/* GENERAL PAGE FORMATTING */
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 2.25em; 
+}
+
+h2 {
+    font-family: 'Stardos Stencil', cursive;
+    line-height: .0125em;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
 
 /*  NAVBAR */
 
@@ -27,4 +55,144 @@ ul, ol {
 }
 .navlink:hover {
     transform: scale(1.2);
+}
+
+/* HOMEPAGE TWO PANE FLEXBOX */
+
+.flexcontainer1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 800px;
+    top: 0;
+    bottom: 0;
+}
+
+.leftpane {
+    width: 33%;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.photopane {
+    opacity: 1;
+    background: url(/img/thursdayline.jpg) no-repeat;
+    width: 67%;
+    background-size: cover;
+    filter: sepia(30%);
+}
+
+.photopane .overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.329);
+    position: relative;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    font-size: 1.5em;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 3em;
+}
+
+/* HOMEPAGE PHOTO BUTTONS */
+
+.flexcontainer2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 0px;
+}
+
+.photo-button {
+    position: relative;
+    margin: 5px;
+    flex: 1;
+}
+
+.photo-button:first-child {
+    margin: 5px 5px 5px 10px;
+}
+
+.photo-button:last-child {
+    margin: 5px 10px 5px 5px;
+}
+
+.photo-button img {
+    width: 100%;
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    filter: sepia(30%);
+}
+
+.photo-button .overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.329);
+    position: absolute;
+}
+
+.photo-text {
+    position: absolute;
+    color: white;
+    font-size: 1.75em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Stardos Stencil', cursive;
+}
+
+.photo-button .overlay:hover {
+    opacity: 1;
+}
+
+/* RESPONSIVE LAYOUT */
+
+@media (max-width: 800px) {
+
+    .leftpane {
+        min-width: 250px;
+    }
+
+    .overlay-text {
+        font-size: 1.5em;
+    }
+    
+    .photo-button {
+        flex: 1;
+        min-width: 45%;
+        max-width: 50%;
+    }
+    .photo-button:first-child {
+        margin: 5px;
+    }
+    
+    .photo-button:last-child {
+        margin: 5px;
+    }
 }
