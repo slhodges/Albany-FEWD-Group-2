@@ -200,6 +200,25 @@ p {
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
+
+/* FOOTER */
+
+.guts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
+    color: rgb(240, 238, 238);
+    background-color:black;
+}
+
+.copyright{
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
+    color: rgb(240, 238, 238);
+    background-color:black;
 }
 
 /* RESPONSIVE LAYOUT */
