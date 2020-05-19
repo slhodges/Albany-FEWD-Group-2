@@ -171,6 +171,37 @@ p {
     opacity: 1;
 }
 
+/* VOLUNTEER HIGHLIGHT */
+
+.volunteer-highlight {
+    background-color: black;
+    display: flex;
+    /* height: 200px; */
+    top: 0;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.bio {
+    font-family: 'Assistant', sans-serif;
+    color: white;
+    font-size: 1em;
+    padding: 30px;
+}
+
+.headshot {
+    margin: 10px;
+}
+
+.headshot img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 /* RESPONSIVE LAYOUT */
 
 @media (max-width: 800px) {
