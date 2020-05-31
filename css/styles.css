@@ -202,6 +202,65 @@ p {
     border-radius: 50%;
 }
 
+/* CONTACT US PAGE */
+
+.contact-box{
+    display: flex;
+    justify-content: space-between;
+}
+.message-box{
+    font-size: 30px;
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-wrapper{
+    background-color: rgb(250, 243, 232);
+    width: 50%;
+    height: 320px;
+    margin: 5px;
+    border: solid black 2px;
+    border-radius: .5em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.form-header{
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+}
+.form-wrapper:hover h2{
+    transform: scale(1.3);
+}
+input{
+    border: solid #666 1px;
+    border-radius: .25rem;
+}
+/* .firstname{
+    width: 50%;
+    float: left;
+}
+.lastname{
+    width: 50%;
+    float: right;
+}
+.email{
+    width: 100%;
+    float: left;
+}
+.question{
+    width: 100%;
+} */
+
+
+
+
 /* FOOTER */
 
 .guts {
