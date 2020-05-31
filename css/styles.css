@@ -36,27 +36,20 @@ h2 {
     margin-bottom: 30px;
 }
 
-h3 {
+h5 {
     font-family: 'Stardos Stencil', cursive;
     text-decoration: underline;
     margin: 0;
     padding: 0;
 }
 
-h4 {
+h6 {
     font-family: 'Assistant', sans-serif;
     font-size: 1.125em;
     font-weight: 700;
     color: darkred;
     margin: 0;
     padding: 0;
-}
-
-h5 {
-    font-family: 'Stardos Stencil', cursive;
-    font-size: 1em;
-    padding: 0;
-    margin: 0;
 }
 
 p {
@@ -278,12 +271,13 @@ p {
     padding: 20px;
 }
 
-.about h3 {
+.about h5 {
     text-decoration: none;
     font-size: 1.75em;
+    text-align: left;
 }
 
-.about h3:nth-child(3) {
+.about h5:nth-child(3) {
     text-align: right;
 }
 
@@ -307,17 +301,25 @@ p {
     margin: auto;
 }
 
+.weekly-needs h2 {
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 1.25em;
+    font-weight: 700;
+    padding: 10px 0px;
+    margin: 0;
+}
+
 .help li {
     padding: 2px;
     list-style-type: square;
     font-family: 'Assistant', sans-serif;
 }
 
-.help h5 {
+.help h7 {
     font-size: 1.25em;
 }
 
-.individual, .donate {
+.individual, .wishlist {
     width: 25%;
     padding: 25px;
     margin: 10px;
@@ -333,9 +335,10 @@ p {
     /* flex-grow: 2; */
 }
 
-.about h4 {
+.about h6 {
     font-size: 2em;
 }
+
 /* HOW TO GET INVOLVED - RESOURCES */
 
 .awesomeart img{
