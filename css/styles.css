@@ -307,16 +307,13 @@ p {
     font-weight: 700;
     padding: 10px 0px;
     margin: 0;
+    line-height: 1em;
 }
 
 .help li {
     padding: 2px;
     list-style-type: square;
     font-family: 'Assistant', sans-serif;
-}
-
-.help h7 {
-    font-size: 1.25em;
 }
 
 .individual, .wishlist {
