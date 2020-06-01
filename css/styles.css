@@ -84,7 +84,6 @@ p {
 }
 .navlink:hover {
   transform: scale(1.2);
-  transition: transform .5s;
 }
 
 /* HOMEPAGE TWO PANE FLEXBOX */
@@ -242,9 +241,7 @@ p {
 
 .contact-box {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  height: 380px;
+  justify-content: space-between;
 }
 .message-box {
   background-image: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/99117057_929113167552706_1075886236746383360_n.jpg?_nc_cat=103&_nc_sid=110474&_nc_ohc=lFBySvWdSLAAX8Mh74v&_nc_ht=scontent-ort2-1.xx&oh=542c46bac2c8e51e639949a50331bc57&oe=5EFB73E9);
@@ -253,17 +250,20 @@ p {
   margin: 5px;
   font-size: 30px;
   display: flex;
-  width: 49%;
+  width: 50%;
   padding: 10px;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
+.message-box:hover{
+    opacity: .7;
+}
 
 .form-wrapper {
   background-color: rgb(250, 243, 232);
-  width: 49%;
-  /* height: 320px; */
+  width: 50%;
+  height: 320px;
   margin: 5px;
   border: solid black 2px;
   border-radius: 0.5em;
@@ -284,10 +284,6 @@ p {
 input {
   border: solid #666 1px;
   border-radius: 0.25rem;
-  height: 60%;
-}
-.form{
-    font-size: 25px;
 }
 /* .firstname{
     width: 50%;
@@ -304,19 +300,6 @@ input {
 .question{
     width: 100%;
 } */
-.submit{
-    height: 35px;
-    display: flex;
-    justify-content: center;
-}
-.submit-button{
-    background-color: rgba(64, 64, 216, 0.842);
-    color: white;
-}
-.testimonial-wrapper{
-    margin-top: 20px;
-    font-style: italic;
-}
 
 /* Events Calendar */
 
@@ -441,6 +424,11 @@ input {
   font-family: "Assistant", sans-serif;
   padding: 20px;
   margin: 0px 30px 30px 30px;
+}
+
+.vinfo a {
+  color: darkred;
+  font-weight: bold;
 }
 
 .help {
