@@ -443,7 +443,7 @@ input {
   margin: 0px 30px 30px 30px;
 }
 
-.vinfo a {
+.vinfo a, .help a {
   color: darkred;
   font-weight: bold;
 }
