@@ -257,7 +257,6 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-size: cover;
 }
 
 .form-wrapper {
@@ -284,14 +283,11 @@ p {
 input {
   border: solid #666 1px;
   border-radius: 0.25rem;
-  margin: 3px;
-  padding: 3px;
+  margin: 5px;
+  padding: 5px;
 }
 label{
     font-size: 25px;
-}
-form{
-  line-height: .9em;
 }
 /* .firstname{
     width: 50%;
@@ -516,13 +512,15 @@ form{
   align-items: center;
   font-family: "Assistant", sans-serif;
   font-weight: 200;
+  font-size: 1em;
   color: rgb(240, 238, 238);
   background-color: black;
 }
 
-.flocation {
+.flocation p, .finfo p{
   font-family: "Assistant", sans-serif;
   font-weight: 200;
+  font-size: 1em;
 }
 
 .copyright {
@@ -536,6 +534,15 @@ form{
 /* RESPONSIVE LAYOUT */
 
 @media (max-width: 800px) {
+  .navbar {
+    display: block;
+    text-align: left;
+  }
+
+  .navlink:hover {
+    transform: none;
+  }
+
   .leftpane {
     min-width: 250px;
   }
@@ -568,4 +575,19 @@ form{
     flex-flow: column;
   }
 
+  .guts{
+    display: block;
+    text-align: left;
+    color: black;
+    background-color: blanchedalmond;
+  }
+
+  .flocation, .finfo{
+    margin-left: 38px;
+  }
+
+  .copyright{
+    color: black;
+    background-color: blanchedalmond;
+  }
 }
