@@ -24,7 +24,7 @@
         <h2 class="contact-header">Want to help?</h2>
         <h2 class="contact-message">Contact Us</h2>
       </div>
-      <div class="form-wrapper">
+      <!-- <div class="form-wrapper">
         <h2 class="form-header">Let's Talk</h2>
         <div class="firstname form">First Name <input type="text" id="firstname">
         </div>
@@ -35,7 +35,21 @@
         <div class="question form">Question <input type="text" id="question" size="50">
         </div>
         <div class="submit"><input class="submit-button" type="button" value="Submit"></div>
-      </div>
+      </div> -->
+
+      <form class="form-wrapper">
+        <h2 class="form-header">Let's Talk</h2>
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" size="15"><br>
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname" size="15">
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" size="25">
+        <label for="question">Question:</label><br>
+        <input type="text" id="question" name="question" size="25">
+        <div class="submit"><input type="button" class="submit-button" value="Submit"></div>
+      </form>
+
       <div class="testimonial-wrapper">
         <p>"A way to make kindness and compassion a bigger part of our world! Be the difference you want to see!" - Susan S.</p>
       </div>
