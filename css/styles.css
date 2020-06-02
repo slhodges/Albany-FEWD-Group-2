@@ -257,6 +257,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  background-size: cover;
 }
 
 .form-wrapper {
@@ -283,11 +284,14 @@ p {
 input {
   border: solid #666 1px;
   border-radius: 0.25rem;
-  margin: 5px;
-  padding: 5px;
+  margin: 3px;
+  padding: 3px;
 }
 label{
     font-size: 25px;
+}
+form{
+  line-height: .9em;
 }
 /* .firstname{
     width: 50%;
@@ -557,7 +561,7 @@ label{
     width: 100%;
   }
   .message-box{
-    font-size: 1.25em;
+    font-size: 1.1em;
   }
   .contact-box{
     align-items: center;
