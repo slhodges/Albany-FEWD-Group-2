@@ -312,21 +312,6 @@ input {
 label{
     font-size: 25px;
 }
-/* .firstname{
-    width: 50%;
-    float: left;
-}
-.lastname{
-    width: 50%;
-    float: right;
-}
-.email{
-    width: 100%;
-    float: left;
-}
-.question{
-    width: 100%;
-} */
 .submit{
     display: flex;
     justify-content: center;
@@ -417,8 +402,7 @@ label{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* margin: 0px 0px 20px 0px;
-    padding: 0; */
+    
   }
   
 .gallery img {
@@ -426,18 +410,12 @@ label{
     height: 600px;
     object-fit: cover;
     padding: 2%;
-    /* min-width: 350px; */
+    
   }
 
 
 /* HOW TO GET INVOLVED - RESOURCES */
 
-/* .awesomeart img {
-  width: 100%;
-  display: block;
-  max-height: 250px;
-  object-fit: cover;
-} */
 
 .Resources {
   font-family: "Assistant", sans-serif;
@@ -484,7 +462,7 @@ label{
     padding: 25px;
     margin: 10px;
     background-color: rgba(139, 0, 0, 0.315);
-    /* min-width: 300px; */
+    
   }
   
 .meal-bags {
@@ -492,7 +470,7 @@ label{
     padding: 25px;
     margin: 10px;
     background-color: rgba(139, 0, 0, 0.315);
-    /* min-width: 300px; */
+    
   }
 
 .donate {
@@ -587,8 +565,8 @@ label{
     flex-wrap: wrap;
   }
 
-  .message-box .form-wrapper .testimonial-wrapper{
-    width: 100%;
+  .message-box, .form-wrapper, .testimonial-wrapper{
+    width: 90%;
   }
   .message-box{
     font-size: 1.1em;
@@ -631,13 +609,12 @@ label{
   .individual, .wishlist {
     width: 100%;
     max-width: 400px;
-    /* font-size: .9em; */
+    
   }
 
   .meal-bags {
     width: 100%;
     max-width: 400px;
-    /* font-size: .9em; */
   }
 
   .gallery img {
